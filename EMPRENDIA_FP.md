@@ -1,8 +1,8 @@
-# EMPRENDIA_FP.md — Documento único del proyecto EmprendeIA FP
+# EMPRENDIA_FP.md — Documento EmprendeIA FP
 
-**Proyecto:** EmprendeIA FP (nombre provisional) · **Versión:** 1.0 (consolidación de la documentación) · **Fecha:** 3 de noviembre de 2026
+**Proyecto:** EmprendIA FP · **Versión:** 1.0 · **Fecha:** 3 de noviembre de 2026
 
-**Estado:** Fase 0 — definición y documentación del producto. **No existe aplicación ni código.** Este documento consolida el contenido de `README.md`, `IDEA_AUTOEMPLEO.md`, `ARQUITECTURA.md`, `ROADMAP.md`, `VALIDACION_MVP.md` y `Agent.md` (v0.2, 03/11/2026; `VALIDACION_MVP.md` estaba en v0.1), sin perder información relevante.
+**Estado:** Fase 0 — definición y documentación del producto. **No existe aplicación ni código.**.
 
 > **Leyenda de estados usada en este documento:**
 > - **Aprobado** = decisión tomada por el responsable del proyecto.
