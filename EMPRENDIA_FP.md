@@ -152,10 +152,10 @@ El **módulo A** de la plataforma (análisis de mercado, §6) aplica este análi
 
 ### 6.3 Funcionalidades expresamente descartadas (decisión aprobada del responsable del proyecto)
 
-- ❌ **Bloque de empleabilidad tipo "Tinder"** (emparejamiento alumno-oferta).
-- ❌ **Enlace emprendedor–centro** como canal propio de la plataforma.
-- ❌ **Base de datos central entre alumnos para mejorar las ideas de empresa** (no se mezcla con el registro longitudinal propio del §3-O5, que sí está previsto).
-- ❌ **Formación propia basada en el mercado laboral** dentro de la plataforma.
+- **Bloque de empleabilidad tipo "Tinder"** (emparejamiento alumno-oferta).
+- **Enlace emprendedor–centro** como canal propio de la plataforma.
+- **Base de datos central entre alumnos para mejorar las ideas de empresa** (no se mezcla con el registro longitudinal propio del §3-O5, que sí está previsto).
+- **Formación propia basada en el mercado laboral** dentro de la plataforma.
 
 ### 6.4 Simplificaciones justificadas (propuestas, coherentes con el alcance)
 
@@ -192,14 +192,14 @@ El **módulo A** de la plataforma (análisis de mercado, §6) aplica este análi
 
 ## 8. Alcance y prioridades del MVP
 
-**Funcionalidades del MVP (orden de prioridad):**
+**Funcionalidades del MVP (orden de prioridad; los puntos 1-6 constituyen el núcleo):**
 
-1. Registro/onboarding del proyecto + adjuntos. ⭐
-2. Diálogo de aclaración con IA. ⭐
-3. Motor económico determinista (inversión, costes, punto de equilibrio, escenarios). ⭐
-4. Catálogo de ayudas con búsqueda filtrada y fichas verificadas. ⭐
-5. Guía de trámites revisada (autónomo vs sociedad, fiscalidad, documentación). ⭐
-6. Plan de lanzamiento con hitos y seguimiento. ⭐
+1. Registro/onboarding del proyecto + adjuntos.
+2. Diálogo de aclaración con IA.
+3. Motor económico determinista (inversión, costes, punto de equilibrio, escenarios).
+4. Catálogo de ayudas con búsqueda filtrada y fichas verificadas.
+5. Guía de trámites revisada (autónomo vs sociedad, fiscalidad, documentación).
+6. Plan de lanzamiento con hitos y seguimiento.
 7. Análisis de mercado ligero (competencia, nichos, fuentes citadas).
 8. Roles alumno/tutor/admin y panel básico del tutor.
 9. Módulo C tecnológico básico (checklist + rangos de coste).
@@ -229,7 +229,7 @@ El **módulo A** de la plataforma (análisis de mercado, §6) aplica este análi
 
 ## 10. Arquitectura técnica
 
-> ⚠️ **Ninguna tecnología está aprobada.** Todo lo siguiente es una propuesta justificada sujeta a decisión del responsable (§19).
+> **Advertencia: ninguna tecnología está aprobada.** Todo lo siguiente es una propuesta justificada sujeta a decisión del responsable (§19).
 
 ### 10.1 Principios de diseño
 
@@ -274,17 +274,17 @@ El **módulo A** de la plataforma (análisis de mercado, §6) aplica este análi
 
 | Componente | Función | MVP |
 |---|---|---|
-| Frontend SPA | Registro, informes, plan, dashboard | ✔ |
-| API + Auth | Usuarios, roles (alumno, tutor, admin, revisor), sesiones | ✔ |
-| Motor de análisis IA | Extracción, aclaración, síntesis con citas | ✔ |
-| Modelo económico | Cálculo determinista (inversión/costes/BEP/escenarios) | ✔ |
-| Catálogo de ayudas y trámites | Fichas curadas + importación; revisión humana | ✔ |
-| RAG | Búsqueda semántica sobre corpus normativo/oficial | ✔ (versión mínima) |
-| ETL/Ingesta | Actualización periódica de fuentes | ✔ (manual + scripts) |
-| Cola de tareas | Procesos largos (documentos, informes) | ✔ |
-| Repo documental | Adjuntos del proyecto, versiones | ✔ |
-| Notificaciones/recordatorios | Email o push del plan | ✔ (básico) |
-| Marketplace de mentores, integraciones e-gobierno, alertas, analytics avanzado | — | ✘ (fase 5) |
+| Frontend SPA | Registro, informes, plan, dashboard | Sí |
+| API + Auth | Usuarios, roles (alumno, tutor, admin, revisor), sesiones | Sí |
+| Motor de análisis IA | Extracción, aclaración, síntesis con citas | Sí |
+| Modelo económico | Cálculo determinista (inversión/costes/BEP/escenarios) | Sí |
+| Catálogo de ayudas y trámites | Fichas curadas + importación; revisión humana | Sí |
+| RAG | Búsqueda semántica sobre corpus normativo/oficial | Sí (versión mínima) |
+| ETL/Ingesta | Actualización periódica de fuentes | Sí (manual + scripts) |
+| Cola de tareas | Procesos largos (documentos, informes) | Sí |
+| Repo documental | Adjuntos del proyecto, versiones | Sí |
+| Notificaciones/recordatorios | Email o push del plan | Sí (básico) |
+| Marketplace de mentores, integraciones e-gobierno, alertas, analytics avanzado | — | No (fase 5) |
 
 ### 10.4 Tecnologías propuestas y justificación (no por moda, sino por necesidad)
 
@@ -327,15 +327,15 @@ El **módulo A** de la plataforma (análisis de mercado, §6) aplica este análi
 
 | Decisión | IA | Humano |
 |---|---|---|
-| Extraer y estructurar información del proyecto | ✔ | — |
-| Detectar lagunas y generar preguntas | ✔ | — |
-| Clasificar sector/tecnología | ✔ | spot-check opcional |
-| Cálculos financieros (con fórmulas fijas) | ✔ (ejecución) | revisión de metodología |
-| Redactar informes y hojas de ruta | ✔ | — |
-| Fichas de ayudas concretas (importes, plazos) | Borrador | ✔ obligatorio antes de publicar |
-| Conclusiones legales/fiscales | No | ✔ siempre |
-| Determinar elegibilidad de una subvención | No | ✔ (remite a organismo oficial) |
-| Priorización de riesgos del proyecto | ✔ (ayuda) | ✔ para decisiones críticas |
+| Extraer y estructurar información del proyecto | Sí | — |
+| Detectar lagunas y generar preguntas | Sí | — |
+| Clasificar sector/tecnología | Sí | spot-check opcional |
+| Cálculos financieros (con fórmulas fijas) | Sí (ejecución) | revisión de metodología |
+| Redactar informes y hojas de ruta | Sí | — |
+| Fichas de ayudas concretas (importes, plazos) | Borrador | Revisión obligatoria antes de publicar |
+| Conclusiones legales/fiscales | No | Revisión siempre |
+| Determinar elegibilidad de una subvención | No | Sí (remite a organismo oficial) |
+| Priorización de riesgos del proyecto | Sí (ayuda) | Sí (decisiones críticas) |
 
 ---
 
