@@ -2,7 +2,7 @@
 
 **Proyecto:** EmprendeIA FP (nombre provisional) · **Versión:** 1.0 (consolidación de la documentación) · **Fecha:** 3 de noviembre de 2026
 
-**Estado:** Fase 0 — definición y documentación del producto. **No existe aplicación ni código.** Este documento consolida el contenido de `README.md`, `IDEA_AUTOEMPLEO.md`, `ARQUITECTURA.md`, `ROADMAP.md`, `VALIDACION_MVP.md` y `Agent.md` (todos de la v0.2, 03/11/2026), sin perder información relevante.
+**Estado:** Fase 0 — definición y documentación del producto. **No existe aplicación ni código.** Este documento consolida el contenido de `README.md`, `IDEA_AUTOEMPLEO.md`, `ARQUITECTURA.md`, `ROADMAP.md`, `VALIDACION_MVP.md` y `Agent.md` (v0.2, 03/11/2026; `VALIDACION_MVP.md` estaba en v0.1), sin perder información relevante.
 
 > **Leyenda de estados usada en este documento:**
 > - **Aprobado** = decisión tomada por el responsable del proyecto.
@@ -17,7 +17,7 @@
 1. [Resumen ejecutivo](#1-resumen-ejecutivo)
 2. [Problema y oportunidad](#2-problema-y-oportunidad)
 3. [Objetivos del proyecto](#3-objetivos-del-proyecto)
-4. [Usuarios objetivo y propuesta de valor](#4-usuarios-objectivo-y-propuesta-de-valor)
+4. [Usuarios objetivo y propuesta de valor](#4-usuarios-objetivo-y-propuesta-de-valor)
 5. [Análisis de mercado y competencia](#5-análisis-de-mercado-y-competencia)
 6. [Funcionalidades de la plataforma](#6-funcionalidades-de-la-plataforma)
 7. [Recorridos de usuario y experiencia de uso](#7-recorridos-de-usuario-y-experiencia-de-uso)
@@ -32,7 +32,7 @@
 16. [Riesgos y limitaciones](#16-riesgos-y-limitaciones)
 17. [Plan de validación del MVP](#17-plan-de-validación-del-mvp)
 18. [Hoja de ruta](#18-hoja-de-ruta)
-19. [Decisiones pendientes](#19-decisiones-pendientes)
+19. [Decisiones pendientes](#19-decisiones-pendientes-requieren-aprobación-del-responsable)
 20. [Instrucciones y convenciones para agentes de IA](#20-instrucciones-y-convenciones-para-agentes-de-ia)
 21. [Referencias y bibliografía](#21-referencias-y-bibliografía)
 
@@ -71,7 +71,7 @@ La IA **orienta y organiza**; no sustituye el asesoramiento profesional jurídic
 
 ### 2.3 Oportunidades adicionales
 
-- Ecosistema FP en crecimiento (cursos de especialización; RD 1153/2021 como marco de referencia, §21).
+- Ecosistema FP en crecimiento (cursos de especialización; el Real Decreto 1153/2021 regula uno concreto, no el marco general, §21).
 - Exigencia institucional de resultados de empleabilidad.
 - IA accesible y barata para análisis documentales.
 - Producto replicable a otras comunidades autónomas y etapas educativas.
@@ -367,7 +367,7 @@ El proyecto se apoya en los materiales del módulo **"Sistemas de Big Data"**. E
 
 ### 12.3 Prácticas de otros módulos de la especialización (no contenidas en los dos PDF)
 
-Los materiales del módulo "Big data aplicado" y otras carpetas del curso incluyen prácticas con **Hadoop, MapReduce, Spark (lab docker-compose), NoSQL, ETL, OLAP, JSON y grafos/NER en Python**, y en otro módulo **TensorFlow.js/Teachable Machine**. Estas tecnologías **no se incorporan al MVP** (justificado por volumen y complejidad), pero son conocimiento disponible en el equipo formativo y candidate para fases futuras (p. ej., analítica avanzada o clasificación de proyectos).
+Los materiales del módulo "Big data aplicado" y otras carpetas del curso incluyen prácticas con **Hadoop, MapReduce, Spark (lab docker-compose), NoSQL, ETL, OLAP, JSON y grafos/NER en Python**, y en otro módulo **TensorFlow.js/Teachable Machine**. Estas tecnologías **no se incorporan al MVP** (justificado por volumen y complejidad), pero son conocimiento disponible en el equipo formativo y candidato para fases futuras (p. ej., analítica avanzada o clasificación de proyectos).
 
 **Conclusión:** la arquitectura propuesta (Python/FastAPI, PostgreSQL, Docker, pipelines de ingesta, dashboards) es coherente con la formación y permite al alumnado autor contribuir directamente. No se fuerzan Hadoop/Spark/Flume/Sqoop.
 
@@ -404,7 +404,7 @@ Los materiales del módulo "Big data aplicado" y otras carpetas del curso incluy
 | **BOE** (legislación consolidada) | Normativa de FP, régimen de autónomos, fiscalidad | boe.es accesible; servicios de búsqueda existentes, pero **la API exacta y sus términos deben confirmarse** | Parcialmente verificada |
 | **BDNS / Sistema Nacional de Publicidad de Subvenciones** | Convocatorias de ayudas | Portal accesible (subvenciones.gob.es); ficha oficial en datos.gob.es indica exportación CSV/XLS/PDF y **API REST en JSON**. El dominio `bdn.es` no resolvió (error TLS) | **Verificada**; pendiente probar la API y sus límites |
 | **JCCM** (catálogo de trámites y ayudas CLM) | Ayudas autonómicas, trámites | Catálogo accesible (jccm.es), p. ej. `/tramites/1024256` (Proyectos de FP y empleo en la empresa) y `/tramites/1024336` (Premios al Mérito Empresarial 2026). Sin API oficial identificada; probable scraping | Parcialmente verificada |
-| **DGT** (Dirección General de Trabajo) | Alta de autónomos, constitución de sociedades | dgt.es accesible; sin API confirmada | Parcialmente verificada |
+| **Alta de autónomos y constitución de sociedades** | Canal real: TGSS/RETA (alta laboral), AEAT (alta censal) y Registro Mercantil/Registradores (sociedades) | Ninguna sede electrónica específica verificada en la revisión. **Aviso: dgt.es no es fuente válida** (es la Dirección General de Tráfico) | **Pendiente** |
 | **INE** | Estadísticas sectoriales y de autoempleo | ine.es accesible; condiciones de uso por confirmar | Parcialmente verificada |
 | **Registradores de España** | Formalización societaria | registradores.org accesible | Parcialmente verificada |
 | **Kit Digital** | Ayudas de digitalización | Páginas oficiales en Red.es, Acelera pyme y kitdigital.red.es; el dominio histórico kitdigital.gob.es ya no resuelve. **Vigencia y requisitos 2026 sin confirmar** | Parcialmente verificada |
@@ -581,7 +581,7 @@ La lista de centros debe obtenerse de fuentes oficiales de la Consejería de Edu
 
 ### 20.1 Contexto
 
-- Proyecto: **EmprendeIA FP** (provisional), documentado íntegramente en este archivo. Repositorio privado previsto: **`emprendeia-fp`**. Ubicación de trabajo: `G:\Curso Esp. IA y Big Data\modulos\Sistema Big data\TAREA IA PARA  AUTOEMPLEO` (dos espacios antes de "AUTOEMPLEO"; no crear otra carpeta).
+- Proyecto: **EmprendeIA FP** (provisional), documentado íntegramente en este archivo. Repositorio **público** en GitHub: <https://github.com/JuanTS/emprendeia-fp> (rama `main`, un único commit). Ubicación de trabajo: `G:\Curso Esp. IA y Big Data\modulos\Sistema Big data\TAREA IA PARA  AUTOEMPLEO` (dos espacios antes de "AUTOEMPLEO"; no crear otra carpeta).
 - Fase actual: **Fase 0 — definición y documentación**. No desarrollar la aplicación todavía.
 
 ### 20.2 Alcance funcional
@@ -612,7 +612,7 @@ La lista de centros debe obtenerse de fuentes oficiales de la Consejería de Edu
 - La plataforma da **orientación informativa**, no asesoramiento profesional: todo informe legal/fiscal/laboral incluye disclaimer y remisión a fuentes o profesionales.
 - Datos de posibles menores: RGPD/LOPDGDD estrictos, minimización y consentimiento; no usar datos reales de alumnos para pruebas de modelos sin base legal.
 - No presentar resultados de IA como hechos contrastados.
-- No publicar el repositorio como público; no exponer tokens ni credenciales.
+- El repositorio es **público** por decisión del responsable (03/11/2026): en GitHub solo se publican `README.md` y `EMPRENDIA_FP.md`. No subir a GitHub los PDF de la asignatura, los documentos originales ni el material interno. No exponer tokens ni credenciales.
 
 ### 20.6 Criterios de calidad
 
@@ -624,7 +624,7 @@ Un informe es válido si: (a) separa dato/estimación/hipótesis; (b) cita fuent
 
 ### 21.1 Fuentes oficiales verificadas (acceso: 3 de noviembre de 2026)
 
-- BOE — Real Decreto 1153/2021, de 28 de diciembre, sobre cursos de especialización de FP: <https://www.boe.es/eli/es/rd/2021-12-28/1153> *(RD específico; marco general de especialización pendiente de consolidar en el catálogo oficial)*
+- BOE — Real Decreto 1153/2021, de 28 de diciembre, por el que se establece el curso de especialización en Materiales compuestos en la industria aeroespacial y se fijan los aspectos básicos de su currículo: <https://www.boe.es/eli/es/rd/2021-12-28/1153> *(no regula con carácter general los cursos de especialización; el marco general queda **pendiente** de citar con la norma vigente)*
 - Sistema Nacional de Publicidad de Subvenciones / BDNS: <https://www.subvenciones.gob.es/bdnstrans/GE/es/index> y ficha de datos abiertos con API REST JSON: <https://datos.gob.es/es/catalogo/e05250001-base-de-datos-nacional-de-subvenciones>
 - Catálogo de trámites JCCM: <https://www.jccm.es/tramites/1024256> (Proyectos de FP y empleo en el seno de la empresa), <https://www.jccm.es/tramites/1024336> (Premios al Mérito Empresarial de CLM, MÉEM 2026)
 - Kit Digital: <https://www.red.es/es/iniciativas/proyectos/kit-digital>, <https://www.acelerapyme.gob.es/kit-digital>, <https://kitdigital.red.es/> *(vigencia/requisitos 2026 pendientes de confirmar; kitdigital.gob.es ya no resuelve)*
@@ -646,4 +646,4 @@ Un informe es válido si: (a) separa dato/estimación/hipótesis; (b) cita fuent
 
 ### 21.4 Documentos de origen consolidados en este archivo
 
-- `README.md`, `IDEA_AUTOEMPLEO.md`, `ARQUITECTURA.md`, `ROADMAP.md`, `VALIDACION_MVP.md`, `Agent.md` (v0.2, 03/11/2026) — conservados en la carpeta del proyecto y en copia de seguridad.
+- `README.md`, `IDEA_AUTOEMPLEO.md`, `ARQUITECTURA.md`, `ROADMAP.md`, `VALIDACION_MVP.md`, `Agent.md` (v0.2, 03/11/2026; `VALIDACION_MVP.md` en v0.1) — conservados en la carpeta del proyecto y en copia de seguridad.
