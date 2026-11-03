@@ -7,19 +7,16 @@ La plataforma analiza el proyecto del alumno, evalúa su potencial de mercado, i
 ## Estado del proyecto
 
 - **Fase 0: definición y documentación.** No existe todavía aplicación ni código.
-- Ninguna decisión técnica está aprobada: la arquitectura es una **propuesta** justificada.
-- Varias fuentes oficiales están marcadas como *pendientes de verificar*; no se presentan como ciertas.
 
 ## Estructura del repositorio
 
 - `README.md`: este resumen.
 - `EMPRENDIA_FP.md`: documento único y completo del proyecto (21 secciones: propuesta, MVP, arquitectura, IA, RGPD, fuentes, validación, roadmap y decisiones pendientes).
 
-Las referencias (PDF de la asignatura) y demás documentos de trabajo se conservan en la carpeta local del proyecto y no se publican en GitHub.
 
 ## Contexto académico
 
-Nace en el módulo profesional **"Sistemas de Big Data"** del Curso de Especialización en **Inteligencia Artificial y Big Data** de Castilla-La Mancha. La arquitectura propuesta se apoya en lo aprendido en la asignatura (Python, ETL, tipología de datos, complejidad computacional, visualización), sin forzar tecnologías no adecuadas al volumen real del proyecto.
+Nace en el módulo profesional **"Sistemas de Big Data"** del Curso de Especialización en **Inteligencia Artificial y Big Data**. La arquitectura propuesta se apoya en lo aprendido en la asignatura (Python, ETL, tipología de datos, complejidad computacional, visualización), sin forzar tecnologías no adecuadas al volumen real del proyecto.
 
 ## Aviso
 
