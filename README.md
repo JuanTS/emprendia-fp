@@ -1,6 +1,6 @@
-# EmprendeIA FP
+# EmprendIA FP
 
-**EmprendeIA FP** es una plataforma conceptual de inteligencia artificial que ayuda al alumnado de **cursos de especialización de Formación Profesional** a transformar sus **proyectos finales** en oportunidades de **autoempleo** (Castilla-La Mancha como territorio inicial).
+**EmprendIA FP** es una plataforma conceptual de inteligencia artificial que ayuda al alumnado de **cursos de especialización de Formación Profesional** a transformar sus **proyectos finales** en oportunidades de **autoempleo** (Castilla-La Mancha como territorio inicial).
 
 La plataforma analiza el proyecto del alumno, evalúa su potencial de mercado, identifica necesidades tecnológicas, calcula la viabilidad económica, localiza ayudas oficiales, explica los trámites administrativos y genera un plan de lanzamiento personalizado.
 
