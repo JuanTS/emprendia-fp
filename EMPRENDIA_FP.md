@@ -581,7 +581,7 @@ La lista de centros debe obtenerse de fuentes oficiales de la Consejería de Edu
 
 ### 20.1 Contexto
 
-- Proyecto: **EmprendeIA FP** (provisional), documentado íntegramente en este archivo. Repositorio **público** en GitHub: <https://github.com/JuanTS/emprendeia-fp> (rama `main`, un único commit). Ubicación de trabajo: `G:\Curso Esp. IA y Big Data\modulos\Sistema Big data\TAREA IA PARA  AUTOEMPLEO` (dos espacios antes de "AUTOEMPLEO"; no crear otra carpeta).
+- Proyecto: **EmprendeIA FP** (provisional), documentado íntegramente en este archivo. Repositorio **público** en GitHub: <https://github.com/JuanTS/emprendeia-fp> (rama `main`). Ubicación de trabajo: `G:\Curso Esp. IA y Big Data\modulos\Sistema Big data\TAREA IA PARA  AUTOEMPLEO` (dos espacios antes de "AUTOEMPLEO"; no crear otra carpeta).
 - Fase actual: **Fase 0 — definición y documentación**. No desarrollar la aplicación todavía.
 
 ### 20.2 Alcance funcional
@@ -629,7 +629,7 @@ Un informe es válido si: (a) separa dato/estimación/hipótesis; (b) cita fuent
 - Catálogo de trámites JCCM: <https://www.jccm.es/tramites/1024256> (Proyectos de FP y empleo en el seno de la empresa), <https://www.jccm.es/tramites/1024336> (Premios al Mérito Empresarial de CLM, MÉEM 2026)
 - Kit Digital: <https://www.red.es/es/iniciativas/proyectos/kit-digital>, <https://www.acelerapyme.gob.es/kit-digital>, <https://kitdigital.red.es/> *(vigencia/requisitos 2026 pendientes de confirmar; kitdigital.gob.es ya no resuelve)*
 - AEAT (sede electrónica): <https://sede.agenciatributaria.gob.es>
-- Dirección General de Trabajo (DGT): <https://www.dgt.es>
+- Seguridad Social (TGSS/RETA) y AEAT: canal real para el alta de autónomos — **pendiente de verificar** su sede electrónica. *(No se cita dgt.es: corresponde a la Dirección General de Tráfico, no al ámbito laboral.)*
 - INE: <https://www.ine.es>
 - Colegios de Registradores de España: <https://www.registradores.org>
 
