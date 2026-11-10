@@ -427,15 +427,13 @@ Cada entrevista se documenta con fecha, perfil (minimizando datos personales) y 
 
 ### 17.3 Centros candidatos para el piloto
 
-Criterios (sin nombres concretos hasta confirmar contacto y autorización, para no dar por hecho disponibilidad):
-
 - Centros de FP de Castilla-La Mancha con cursos de especialización y tutor interesado.
 - 2–4 proyectos reales por centro.
 - Implicación del tutor como revisor (1–2 h/mes estimadas, a confirmar).
 
 La lista de centros debe obtenerse de fuentes oficiales de la Consejería de Educación y confirmarse con cada centro.
 
-### 17.4 Prototipo de validación (sin código de producción)
+### 17.4 Prototipo de validación
 
 1. Informe de viabilidad generado manualmente (con ayuda de IA) para 3 proyectos reales de alumnos.
 2. Hoja de cálculo del modelo económico determinista (inversión, costes, BEP, escenarios).
