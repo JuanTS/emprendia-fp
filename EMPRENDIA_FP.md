@@ -122,7 +122,6 @@ Alternativas actuales y limitaciones frente a EmprendeIA FP:
 | Portales de ayudas (BDNS, webs autonómicas) | Información oficial | Volumen enorme, difícil de filtrar por proyecto | Filtrado automatizado por proyecto + revisión humana |
 | Generadores de planes de negocio | Plantillas | Genéricos, sin ayuda ni financiación contextualizada | Plan generado a partir del proyecto real del alumno |
 
-El **módulo A** de la plataforma (análisis de mercado, §6) aplica este análisis al proyecto concreto del alumno, distinguiendo dato/estimación/hipótesis.
 
 ---
 
