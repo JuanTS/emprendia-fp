@@ -89,13 +89,14 @@ La IA **orienta y organiza**; no sustituye el asesoramiento profesional jurídic
 | O5 | Crear una base de proyectos analizados que permita mejorar el acompañamiento y medir resultados. |
 
 **Matiz sobre O5 (resolución de ambigüedad):** O5 se refiere a un registro longitudinal de los proyectos de los participantes de la plataforma, con fines de mejora del acompañamiento y medición de resultados, con consentimiento.
+
 ---
 
 ## 4. Usuarios objetivo y propuesta de valor
 
 | Perfil | Necesidad principal | Momento de uso |
 |---|---|---|
-| **Alumno/a con proyecto** | Evaluar si su idea puede ser un negocio; saber pasos, costes y ayudas | Durante el proyecto y meses después |
+| **Alumno/a con proyecto** | Evaluar si su idea puede ser un negocio; saber pasos, costes y ayudas | Durante el proyecto |
 | **Profesor/tutor** | Guiar a decenas de alumnos con criterios consistentes; priorizar acompañamiento | Todo el curso |
 | **Coordinador/a de FP / centro** | Medir resultados, vincular proyectos a empleabilidad | Fin de curso |
 | **Técnico de emprendimiento / incubadora** | Triaje de proyectos, informes previos a mentoría | Post-curso |
