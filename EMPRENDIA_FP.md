@@ -372,7 +372,6 @@ Alternativas actuales y limitaciones frente a EmprendeIA FP:
 
 ## 15. Viabilidad económica y costes
 
-**Costes tecnológicos estimados** (estimaciones orientativas, no hechos; deben contrastarse con tarifas reales del proveedor elegido — pendiente):
 
 | Concepto | Piloto (≤200 usuarios) | Escalado (2.000–5.000 usuarios) |
 |---|---|---|
@@ -381,7 +380,7 @@ Alternativas actuales y limitaciones frente a EmprendeIA FP:
 | Mantenimiento y operación | ~1 persona parcial | ~2 personas |
 | Curación de fichas de ayudas | Trabajo humano periódico | Idem |
 
-**Viabilidad del modelo de negocio:** evaluada en §9 (licencias por centro, acuerdos institucionales, servicios especializados, patrocinio; modelo mixto recomendado). El cuello de botella económico principal no es la infraestructura, sino el **coste humano de revisión** y la dependencia inicial de financiación pública/institucional.
+**Viabilidad del modelo de negocio:** evaluada en (licencias por centro, acuerdos institucionales, servicios especializados, patrocinio; modelo mixto recomendado). El cuello de botella económico principal no es la infraestructura, sino el **coste humano de revisión** y la dependencia inicial de financiación pública/institucional.
 
 ---
 
