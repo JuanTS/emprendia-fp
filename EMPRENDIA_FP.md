@@ -203,8 +203,6 @@ Alternativas actuales y limitaciones frente a EmprendeIA FP:
 
 ## 10. Arquitectura técnica
 
-> **Advertencia: ninguna tecnología está aprobada.** Todo lo siguiente es una propuesta justificada sujeta a decisión del responsable (§19).
-
 ### 10.1 Principios de diseño
 
 1. **Coste bajo y operación sencilla** antes que sofisticación (proyecto educativo con presupuesto incierto).
