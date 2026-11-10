@@ -521,11 +521,10 @@ La lista de centros debe obtenerse de fuentes oficiales de la Consejería de Edu
 
 ## 20. Instrucciones y convenciones para agentes de IA
 
-> Este documento es la **memoria única del proyecto**. Antes de tocar cualquier archivo, leerlo íntegramente. Si una tarea entra en conflicto con estas reglas, prevalece esta sección; cualquier excepción autorizada explícitamente por el responsable se documenta en `DECISIONES.md`.
 
 ### 20.1 Contexto
 
-- Proyecto: **EmprendeIA FP** (provisional), documentado íntegramente en este archivo. Repositorio **público** en GitHub: <https://github.com/JuanTS/emprendeia-fp> (rama `main`). Ubicación de trabajo: `G:\Curso Esp. IA y Big Data\modulos\Sistema Big data\TAREA IA PARA  AUTOEMPLEO` (dos espacios antes de "AUTOEMPLEO"; no crear otra carpeta).
+- Proyecto: **EmprendeIA FP** (provisional), documentado íntegramente en este archivo. Repositorio **público** en GitHub: <https://github.com/JuanTS/emprendeia-fp> (rama `main`).
 - Fase actual: **Fase 0 — definición y documentación**. No desarrollar la aplicación todavía.
 
 ### 20.2 Alcance funcional
