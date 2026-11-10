@@ -258,7 +258,7 @@ Alternativas actuales y limitaciones frente a EmprendeIA FP:
 | Notificaciones/recordatorios | Email o push del plan | Sí (básico) |
 | Marketplace de mentores, integraciones e-gobierno, alertas, analytics avanzado | — | No (fase 5) |
 
-### 10.4 Tecnologías propuestas y justificación (no por moda, sino por necesidad)
+### 10.4 Tecnologías propuestas y justificación
 
 | Capa | Propuesta MVP | Justificación | Alternativa y cuándo considerarla |
 |---|---|---|---|
