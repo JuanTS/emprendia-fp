@@ -354,8 +354,6 @@ Alternativas actuales y limitaciones frente a EmprendeIA FP:
 
 ## 14. Fuentes oficiales e integraciones
 
-> Regla: **no se asume ninguna API**. Cada fuente debe comprobarse antes de integrar.
-
 | Fuente | Uso | Disponibilidad (consultado 03/11/2026) | Estado |
 |---|---|---|---|
 | **BOE** (legislación consolidada) | Normativa de FP, régimen de autónomos, fiscalidad | boe.es accesible; servicios de búsqueda existentes, pero **la API exacta y sus términos deben confirmarse** | Parcialmente verificada |
