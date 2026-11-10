@@ -127,7 +127,7 @@ Alternativas actuales y limitaciones frente a EmprendeIA FP:
 
 ## 6. Funcionalidades de la plataforma
 
-### 6.1 Funcionalidades previstas (módulos)
+### Funcionalidades previstas (módulos)
 
 | Módulo | Qué hace | Situación en MVP |
 |---|---|---|
@@ -137,30 +137,6 @@ Alternativas actuales y limitaciones frente a EmprendeIA FP:
 | D. Viabilidad empresarial | Inversión, costes fijos/variables, ingresos, punto de equilibrio, escenarios | Sí, con modelo determinista de plantilla |
 | E. Trámites administrativos | Autónomo/sociedad, fiscalidad, laboral, documentación, enlaces oficiales | Sí, guía estática revisada + disclaimer |
 | F. Plan de lanzamiento | Hoja de ruta, hitos, plazos, seguimiento de tareas | Sí |
-
-### 6.2 Funcionalidades complementarias (aplazadas a post-MVP)
-
-- Inventario tecnológico completo (módulo C extendido) con alternativas según presupuesto.
-- Alertas de nuevas convocatorias de ayudas relevantes.
-- Repositorio documental del expediente del proyecto.
-- Conexión con mentores/expertos (marketplace de asesoramiento).
-- Integración con sedes electrónicas para iniciación de trámites *(depende de la disponibilidad real de APIs; no se da por hecho)*.
-- Cuadro de indicadores para centros y administración.
-- Análisis de mercado profundo (series temporales, tendencias sectoriales).
-
-### 6.3 Funcionalidades expresamente descartadas (decisión aprobada del responsable del proyecto)
-
-- **Bloque de empleabilidad tipo "Tinder"** (emparejamiento alumno-oferta).
-- **Enlace emprendedor–centro** como canal propio de la plataforma.
-- **Base de datos central entre alumnos para mejorar las ideas de empresa** (no se mezcla con el registro longitudinal propio del §3-O5, que sí está previsto).
-- **Formación propia basada en el mercado laboral** dentro de la plataforma.
-
-### 6.4 Simplificaciones justificadas (propuestas, coherentes con el alcance)
-
-- **No** construir un buscador de mercado "en tiempo real" en el MVP: una versión ligera con fuentes seleccionadas cubre la mayor parte del valor.
-- **No** automatizar la tramitación: explicar y enlazar es suficiente y reduce riesgo legal.
-- **No** prometer cifras exactas de ayudas: solo fichas verificadas; el resto como hipótesis "pendiente de confirmar".
-- **No** desarrollar el módulo C completo: la mayoría de proyectos de FP son de servicios o software; una checklist y rangos de coste bastan para decidir.
 
 ---
 
