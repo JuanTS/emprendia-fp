@@ -399,15 +399,12 @@ Alternativas actuales y limitaciones frente a EmprendeIA FP:
 ### 16.2 Limitaciones estructurales del producto
 
 - La plataforma ofrece **orientación informativa**, no asesoramiento jurídico, fiscal ni laboral.
-- Varias fuentes oficiales todavía **pendientes de verificar** (§14); mientras no se confirmen, el catálogo de ayudas se limita a fichas revisadas manualmente.
+- Varias fuentes oficiales todavía **pendientes de verificar** ; mientras no se confirmen, el catálogo de ayudas se limita a fichas revisadas manualmente.
 - Las cifras económicas del informe son **estimaciones con supuestos** o hipótesis, nunca garantías.
-- No existe todavía validación empírica de demanda (§17).
 
 ---
 
 ## 17. Plan de validación del MVP
-
-**Estado:** planificación. **No se han realizado todavía entrevistas ni pruebas.** Todo lo siguiente es diseño de investigación, no resultados.
 
 ### 17.1 Hipótesis a comprobar (H1–H6)
 
