@@ -88,8 +88,7 @@ La IA **orienta y organiza**; no sustituye el asesoramiento profesional jurídic
 | O4 | Producir un informe de viabilidad y una hoja de ruta accionables. |
 | O5 | Crear una base de proyectos analizados que permita mejorar el acompañamiento y medir resultados. |
 
-**Matiz sobre O5 (resolución de ambigüedad):** O5 se refiere a un registro longitudinal de los proyectos de los participantes de la plataforma, con fines de mejora del acompañamiento y medición de resultados, con consentimiento. **No** implica la base de datos central entre alumnos para "mejorar ideas de empresa", funcionalidad expresamente descartada (§6).
-
+**Matiz sobre O5 (resolución de ambigüedad):** O5 se refiere a un registro longitudinal de los proyectos de los participantes de la plataforma, con fines de mejora del acompañamiento y medición de resultados, con consentimiento.
 ---
 
 ## 4. Usuarios objetivo y propuesta de valor
