@@ -313,15 +313,6 @@ Alternativas actuales y limitaciones frente a EmprendeIA FP:
 
 ## 12. Relación con los contenidos del curso
 
-El proyecto se apoya en los materiales del módulo **"Sistemas de Big Data"**. Es importante distinguir **los contenidos de los dos PDF de referencia** de las **prácticas de otros módulos** de la especialización.
-
-### 12.1 Contenidos presentes en los PDF de referencia (`referencias/`)
-
-*PDF 1 — "1 Introducción a Sistemas Big Data (SBD).pdf":* ficha de la asignatura (6 ECTS, 55 h, 2+1 h semanales), contenidos básicos (matemática discreta, lógica algorítmica, complejidad, extracción de información, modelado, análisis en tiempo real, costes y calidad del análisis), gestión y almacenamiento (sistemas de gestión; **Flume y Sqoop** como herramientas de importación; integración de datos; **R y Python**), visualización (datos no estructurados, IA en análisis de datos, clusters de máquinas), cuadros de mando y métricas, minería de datos y fases de los modelos; introducción a **Python** y **Google Colab**.
-
-*PDF 2 — "2 Conceptos Básicos de Sistemas de Big Data.pdf":* complejidad computacional (P/NP, Big-O, escalabilidad), **divide y vencerás** (distribuido O(m)+O(K) frente a secuencial O(m·K)), proceso de extracción de información (identificación de datos, almacenamiento, analytics, machine learning, visualización), **tipología de datos** (estructurados, semi-estructurados, no estructurados), preparación de datos (depuración, criba, valores faltantes), modelos de datos (conceptual/lógico/físico, restricciones de integridad, operaciones I/O), ML por tipo (texto, imagen, audio, vídeo) y visualización/cuadro de mando.
-
-### 12.2 Alineación con la arquitectura propuesta
 
 | Concepto/tecnología del curso | Aplicación al proyecto | Decisión (propuesta) |
 |---|---|---|
@@ -336,12 +327,6 @@ El proyecto se apoya en los materiales del módulo **"Sistemas de Big Data"**. E
 | Cuadros de mando, métricas, visualización | Panel de seguimiento del alumno y dashboard de centro (módulo F) | Aprovechar (matplotlib/Chart.js) |
 | Minería de datos y ML (clasificación, texto, imagen) | Futuro: clasificación de proyectos por sector, NER sobre memorias | Complementario (post-MVP) |
 | Google Colab | Prototipado rápido en Fase 0 | Usable para prototipos; no para producción |
-
-### 12.3 Prácticas de otros módulos de la especialización (no contenidas en los dos PDF)
-
-Los materiales del módulo "Big data aplicado" y otras carpetas del curso incluyen prácticas con **Hadoop, MapReduce, Spark (lab docker-compose), NoSQL, ETL, OLAP, JSON y grafos/NER en Python**, y en otro módulo **TensorFlow.js/Teachable Machine**. Estas tecnologías **no se incorporan al MVP** (justificado por volumen y complejidad), pero son conocimiento disponible en el equipo formativo y candidato para fases futuras (p. ej., analítica avanzada o clasificación de proyectos).
-
-**Conclusión:** la arquitectura propuesta (Python/FastAPI, PostgreSQL, Docker, pipelines de ingesta, dashboards) es coherente con la formación y permite al alumnado autor contribuir directamente. No se fuerzan Hadoop/Spark/Flume/Sqoop.
 
 ---
 
