@@ -4,12 +4,6 @@
 
 **Estado:** Fase 0 — definición y documentación del producto. **No existe aplicación ni código.**.
 
-> **Leyenda de estados usada en este documento:**
-> - **Aprobado** = decisión tomada por el responsable del proyecto.
-> - **Propuesto** = recomendación técnica NO aprobada todavía.
-> - **Hipótesis** = afirmación pendiente de validación empírica.
-> - **Pendiente** = dato/fuente que no ha podido verificarse; no debe presentarse como cierto.
-
 ---
 
 ## Índice
