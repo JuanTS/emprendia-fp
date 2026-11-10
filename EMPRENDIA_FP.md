@@ -501,11 +501,6 @@ La lista de centros debe obtenerse de fuentes oficiales de la Consejería de Edu
 
 ## 19. Decisiones pendientes (requieren aprobación del responsable)
 
-**Aprobadas hasta ahora (alcance):**
-- Las funcionalidades descartadas del §6.3 (bloque tipo Tinder, enlace emprendedor–centro, base central de ideas, formación propia) están **descartadas**.
-- El principio de gratuidad para el alumnado (§9).
-- La obligatoriedad de human-in-the-loop y etiquetado de confianza (§11) como requisitos de producto.
-
 **No aprobadas (pendientes):**
 
 1. Nombre/marca definitiva (EmprendeIA FP es provisional).
