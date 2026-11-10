@@ -547,20 +547,6 @@ La lista de centros debe obtenerse de fuentes oficiales de la Consejería de Edu
 7. **No sobrescribir** archivos existentes sin leerlos antes. Conservar los originales markdown como historial y no eliminar `generarMarkDown.py` hasta decidir su finalidad.
 8. Tareas de solo lectura no deben generar escrituras.
 
-### 20.5 Restricciones
-
-- No desarrollar la aplicación en esta fase.
-- No instalar dependencias ni modificar configuraciones del sistema.
-- No presuponer APIs de organismos públicos: verificar antes (§14).
-- La plataforma da **orientación informativa**, no asesoramiento profesional: todo informe legal/fiscal/laboral incluye disclaimer y remisión a fuentes o profesionales.
-- Datos de posibles menores: RGPD/LOPDGDD estrictos, minimización y consentimiento; no usar datos reales de alumnos para pruebas de modelos sin base legal.
-- No presentar resultados de IA como hechos contrastados.
-- El repositorio es **público** por decisión del responsable (03/11/2026): en GitHub solo se publican `README.md` y `EMPRENDIA_FP.md`. No subir a GitHub los PDF de la asignatura, los documentos originales ni el material interno. No exponer tokens ni credenciales.
-
-### 20.6 Criterios de calidad
-
-Un informe es válido si: (a) separa dato/estimación/hipótesis; (b) cita fuentes con fecha; (c) los cálculos son reproducibles; (d) las fichas de ayudas tienen revisión humana; (e) incluye disclaimer de no asesoramiento. Los cambios de contenido externo requieren re-verificación y actualización de fecha. Está prohibido contradecir este documento sin registrar la revisión en `DECISIONES.md`.
-
 ---
 
 ## 21. Referencias y bibliografía
@@ -582,11 +568,6 @@ Un informe es válido si: (a) separa dato/estimación/hipótesis; (b) cita fuent
 - Fundación Incyco: convocatorias actuales de becas/ayudas al autoempleo
 - Portal de datos abiertos de la JCCM; APIs exactas de BOE y INE; condiciones de scraping de catálogos autonómicos
 
-### 21.3 Material formativo de referencia (conservado en `referencias/`)
-
-- `referencias/sbd1_introduccion.pdf` — "1 Introducción a Sistemas Big Data (SBD).pdf" (original intacto en la carpeta del módulo)
-- `referencias/sbd2_conceptos_basicos.pdf` — "2 Conceptos Básicos de Sistemas de Big Data.pdf" (original intacto en la carpeta del módulo)
-
-### 21.4 Documentos de origen consolidados en este archivo
+### 21.3 Documentos de origen consolidados en este archivo
 
 - `README.md`, `IDEA_AUTOEMPLEO.md`, `ARQUITECTURA.md`, `ROADMAP.md`, `VALIDACION_MVP.md`, `Agent.md` (v0.2, 03/11/2026; `VALIDACION_MVP.md` en v0.1) — conservados en la carpeta del proyecto y en copia de seguridad.
