@@ -46,7 +46,7 @@ La IA **orienta y organiza**; no sustituye el asesoramiento profesional jurídic
 
 - **Propuesta de valor:** *"Un tutor IA continuo que toma tu proyecto de FP, lo analiza con fuentes oficiales, te dice qué puede funcionar, cuánto costaría, qué ayudas puedes pedir y qué pasos dar, en un plan claro y adaptado a tu situación."*
 - **Diferenciadores:** contexto específico de FP; fuentes oficiales trazables; motor económico determinista (fórmulas auditables, no cifras generadas por el modelo); human-in-the-loop en conclusiones críticas; seguimiento temporal.
-- **Contexto académico:** nace en el módulo profesional **"Sistemas de Big Data"** (6 ECTS, 55 h, 2+1 h semanales, programación en Python; docente Sebastián Romero López, según los materiales) del Curso de Especialización en **Inteligencia Artificial y Big Data** de Castilla-La Mancha.
+- **Contexto académico:** nace en el módulo profesional **"Sistemas de Big Data"** (6 ECTS, 55 h, 2+1 h semanales, programación en Python; docente Sebastián Romero López) del Curso de Especialización en **Inteligencia Artificial y Big Data** de Albacete.
 - **Estado:** documentación definida; el MVP está delimitado y priorizado; ninguna decisión tecnológica está aprobada; no se han realizado aún las validaciones previstas.
 
 ---
@@ -59,9 +59,8 @@ La IA **orienta y organiza**; no sustituye el asesoramiento profesional jurídic
 2. **Desconocimiento de ayudas y trámites.** El alumnado ignora qué subvenciones existen, quién las concede, cuándo y con qué requisitos.
 3. **Falta de criterio económico.** No se sabe cuánto cuesta montar el negocio, qué ingresos son plausibles ni en qué condiciones se alcanza el punto de equilibrio.
 4. **Escasez de acompañamiento.** Los servicios públicos de apoyo al emprendimiento tienen capacidad limitada y no llegan a todo el alumnado al final del curso.
-5. **Brecha de edad/experiencia.** Muchos alumnos son jóvenes (a veces menores) que desconocen el régimen de autónomos, las obligaciones fiscales y las formas societarias.
+5. **Brecha de edad/experiencia.** Muchos alumnos son jóvenes que desconocen el régimen de autónomos, las obligaciones fiscales y las formas societarias.
 
-*Nota: estas afirmaciones de contexto son hipótesis de trabajo (ver §17, H1–H2); no se citan cifras porque no han podido verificarse.*
 
 ### 2.2 Oportunidad
 
@@ -71,7 +70,7 @@ La IA **orienta y organiza**; no sustituye el asesoramiento profesional jurídic
 
 ### 2.3 Oportunidades adicionales
 
-- Ecosistema FP en crecimiento (cursos de especialización; el Real Decreto 1153/2021 regula uno concreto, no el marco general, §21).
+- Ecosistema FP en crecimiento.
 - Exigencia institucional de resultados de empleabilidad.
 - IA accesible y barata para análisis documentales.
 - Producto replicable a otras comunidades autónomas y etapas educativas.
